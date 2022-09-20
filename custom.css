@@ -1,0 +1,82 @@
+body {
+  margin : 0 !important;
+  padding: 0 !important;
+}
+
+body .banner {
+  height    : 865px;
+  background: url(./banner.jpg) center center no-repeat;
+}
+
+body .banner .about_signin {
+  padding: 20px;
+  height : 80px;
+  width  : center;
+}
+
+body .banner .about_signin .about,
+body .banner .about_signin .signin {
+  text-decoration: none;
+  float          : right;
+  margin-top     : 25px;
+  padding        : 7px 15px;
+  text-align     : center;
+}
+
+body .banner .about_signin .signin {
+  margin-right : 90px;
+  color        : #8BC34A;
+  border       : 2px solid #8BC34A;
+  border-radius: 100px;
+}
+
+body .banner .about_signin .about {
+  margin-right: 35px;
+  color       : #283238;
+}
+
+body .banner .logo {
+  background: url(./hapoERP.png) center center no-repeat;
+  height    : 120px;
+  margin-top: 50px;
+}
+
+body .banner .content_center {
+  height: 150px;
+}
+
+body .banner .content_center img {
+  height: 60px;
+  width : 60px;
+}
+
+body .banner .content_center span {
+  display: block;
+}
+
+body .banner .content_center .better-img_text,
+body .banner .content_center .faster-img_text,
+body .banner .content_center .together-img_text {
+  width     : 33%;
+  display   : inline-block;
+  text-align: center;
+  font-size : 30px;
+}
+
+body .banner .text_center {
+  text-align: center;
+  font-size : 18px;
+  font-style: italic;
+}
+
+body .banner .button_startnow {
+  text-align: center;
+}
+
+body .banner .button_startnow button {
+  padding      : 10px 15px;
+  border       : 1px solid #8BC34A;
+  border-radius: 20px;
+  margin       : 25px;
+  cursor       : pointer;
+}
